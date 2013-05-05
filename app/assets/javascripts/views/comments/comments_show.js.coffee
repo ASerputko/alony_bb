@@ -9,8 +9,6 @@ class Bb.Views.CommentsShow extends Backbone.View
 	events: 
 		"click .remove": "remove"
 
-	initialize: ->
-
 	render: ->
 		@$el.html(@template(@model.attributes))
 		@

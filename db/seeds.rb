@@ -13,3 +13,7 @@ Project.create!(name: "WGen", description: "bla-bla-bla", year: 2011)
 Project.create!(name: "Homeaway", description: "bla-bla-bla", year: 2012)
 Project.create!(name: "Coupa", description: "bla-bla-bla", year: 2013)
 Project.create!(name: "?!?", description: "bla-bla-bla", year: 2014)
+
+Comment.create!(text: "1...")
+Comment.create!(text: "2...")
+Comment.create!(text: "3...")
