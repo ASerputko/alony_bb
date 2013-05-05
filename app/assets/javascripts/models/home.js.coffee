@@ -1,6 +1,6 @@
 class Bb.Models.Home extends Backbone.Model
 
-	url: "home"
+	url: "content/home"
 
 	defaults:
 		"title": ""

@@ -9,6 +9,7 @@ class Bb.Views.HomesIndex extends Backbone.View
 
 	render: ->
 		@$el.html(@template(@model.attributes))
+		@
 
 	remove: ->
-		@$el.remove()
+		@$el.empty()

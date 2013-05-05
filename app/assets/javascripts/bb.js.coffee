@@ -5,6 +5,5 @@ window.Bb =
 	Routers: {}
 
 $(document).ready ->
- 	new Bb.Routers.Tabs()
- 	new Bb.Views.TabsIndex()
+ 	new Bb.Routers.Main()
  	Backbone.history.start()

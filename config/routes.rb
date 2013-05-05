@@ -2,8 +2,11 @@ Bb::Application.routes.draw do
 
   root :to => 'application#index'
 
-  resources :home
-
+  scope "content" do
+    resources :home
+    resources :projects
+    resources :comments
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
