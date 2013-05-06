@@ -8,6 +8,7 @@ class Bb.Views.CommentsShow extends Backbone.View
 
 	events: 
 		"click .remove": "remove"
+		"click .edit": "edit"
 
 	render: ->
 		@$el.html(@template(@model.attributes))
@@ -16,3 +17,6 @@ class Bb.Views.CommentsShow extends Backbone.View
 	remove: ->
 		@model.destroy()
 		@$el.remove()
+
+	edit: ->
+		alert "Does not work yet!!!"
